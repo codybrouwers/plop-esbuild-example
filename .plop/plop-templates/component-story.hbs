@@ -1,0 +1,20 @@
+import { ComponentStory, ComponentMeta } from "@storybook/react-native";
+import { {{pascalCase name}} } from "./{{pascalCase name}}";
+
+// == Types ================================================================
+
+// == Constants ============================================================
+
+// == Default Meta =========================================================
+
+const defaultMeta: ComponentMeta<typeof {{pascalCase name}}> = {
+  title: "molecules/{{pascalCase name}}",
+  component: {{pascalCase name}},
+  argTypes: {},
+  args: {},
+};
+export default defaultMeta;
+
+// == Stories ==============================================================
+
+export const Default: ComponentStory<typeof {{pascalCase name}}> = (args) => <{{pascalCase name}} {...args} />;

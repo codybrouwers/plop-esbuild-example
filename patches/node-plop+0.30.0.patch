@@ -1,0 +1,13 @@
+diff --git a/node_modules/node-plop/tsconfig.json b/node_modules/node-plop/tsconfig.json
+index eef878c..ea3ead2 100644
+--- a/node_modules/node-plop/tsconfig.json
++++ b/node_modules/node-plop/tsconfig.json
+@@ -1,6 +1,7 @@
+ // Used by eslint for linting
+ {
+-	"extends": "./types/tsconfig.json"
++  // Patch can be deleted when the next version (> 0.30.0) of node-plop is released.
++	"extends": "./types/tsconfig.json",
+ 	// We're just using this for index.d.ts
+ 	"include": [
+ 	  "types/index.d.ts",
